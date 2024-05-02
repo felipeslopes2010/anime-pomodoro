@@ -59,7 +59,7 @@ el.btnSpeakerNone.addEventListener('click', () => {
     document.documentElement.classList.toggle('music-on');
     if(document.documentElement.classList.contains('music-on') && document.documentElement.classList.contains('bts')) {
         sound.btsMusic.play();
-        sound.btsMusic.volume = 0.02;
+        sound.btsMusic.volume = 0.2;
     } else if(document.documentElement.classList.contains('music-on') && document.documentElement.classList.contains('pokemon')) {
         sound.pokemonMusic.play();
     } else if(document.documentElement.classList.contains('music-on') && document.documentElement.classList.contains('anime-girl')) {
@@ -96,7 +96,7 @@ el.btsCard.addEventListener("click", () => {
     }
 
     sound.btsMusic.play();
-    sound.btsMusic.volume = 0.02;
+    sound.btsMusic.volume = 0.2;
 });
 
 el.pokemonCard.addEventListener("click", () => {
@@ -114,7 +114,7 @@ el.pokemonCard.addEventListener("click", () => {
         }
 
         sound.pokemonMusic.play();
-        sound.pokemonMusic.volume = 0.02;
+        sound.pokemonMusic.volume = 0.2;
 });
 
 el.animeGirlCard.addEventListener("click", () => {
@@ -132,7 +132,7 @@ el.animeGirlCard.addEventListener("click", () => {
     }
 
     sound.animeVibeMusic.play();
-    sound.animeVibeMusic.volume = 0.02;
+    sound.animeVibeMusic.volume = 0.2;
 });
 
 el.digimonCard.addEventListener("click", () => {
@@ -150,5 +150,5 @@ el.digimonCard.addEventListener("click", () => {
     }
 
     sound.digimonMusic.play();
-    sound.digimonMusic.volume = 0.02;
+    sound.digimonMusic.volume = 0.2;
 });
