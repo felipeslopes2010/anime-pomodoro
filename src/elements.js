@@ -1,0 +1,13 @@
+export const minutes = document.querySelector('#minutes');
+export const seconds = document.querySelector('#seconds');
+export const btnPlay = document.querySelector('#btn-play');
+export const btnPause = document.querySelector('#btn-pause');
+export const btnAdjust = document.querySelector('#btn-adjust');
+export const btnPlus = document.querySelector('#btn-plus');
+export const btnMinus = document.querySelector('#btn-minus');
+export const btnSpeakerNone = document.querySelector('#btn-speaker-none');
+export const btnSpeakerHigh = document.querySelector('#btn-speaker-high');
+export const btsCard = document.querySelector('#bts-card');
+export const pokemonCard = document.querySelector('#pokemon-card');
+export const animeGirlCard = document.querySelector('#anime-girl-card');
+export const digimonCard = document.querySelector('#digimon-card');
